@@ -1,3 +1,4 @@
+# website: https://ifoa-genai-wp.github.io/work/
 # just-the-docs-template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:

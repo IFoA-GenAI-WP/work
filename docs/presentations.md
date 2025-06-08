@@ -33,7 +33,7 @@ This presentation explores the emerging field of AI agents. It discusses our exp
 
 ---
 
-### Title: **Revolutionising the insurance industry with gen AI**
+### Title: **Revolutionising the insurance industry with Gen AI**
 
 **Speaker(s):** Daniel Ramsay
 
@@ -44,6 +44,3 @@ This presentation explores the emerging field of AI agents. It discusses our exp
 ---
 
 
-## Future Presentations
-
-We will update this section with more presentations soon.

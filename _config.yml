@@ -4,6 +4,9 @@ description: IFoA Generative AI Working Party
 baseurl: ""
 url: "https://ifoa-genai-wp.github.io/work/"
 
+aux_links:
+  Repository: https://github.com/IFoA-GenAI-WP/work
+
 permalink: pretty
 
 exclude:

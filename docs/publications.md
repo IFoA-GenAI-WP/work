@@ -11,7 +11,6 @@ nav_order: 5
 ### Blogs: 
 
 **IFoA GenAI Working Party Substack website:**  [Link to Substack](https://ifoagenai.substack.com)
-**Description:**
 
 ---
 ### Workshops:

@@ -1,0 +1,94 @@
+---
+layout: table_wrappers
+---
+
+<!DOCTYPE html>
+
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
+
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-head-nav.css' | relative_url }}" id="jtd-head-nav-stylesheet">
+
+  <style>
+    .team-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0px; /* Adds spacing between the team member boxes */
+      justify-content: space-between; /* Evenly distributes the boxes */
+    }
+  
+    .team-member {
+      flex: 0 0 32%; /* Each box takes up 32% of the width, leaving space for 3 boxes per row */
+      text-align: center; /* Center-aligns the text inside the box */
+      padding: 20px; /* Adds padding inside each box for better spacing */
+      border: 2px solid #ddd; /* Adds a border around each box */
+      border-radius: 8px; /* Optional: Rounds the corners of the boxes */
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow to the box */
+      background-color: #fff; /* Background color for the box */
+      margin-bottom: 20px; /* Adds space below each box */
+    }
+  
+    .team-member img {
+      width: 150px; /* Set a fixed width for the image */
+      height: 150px; /* Set a fixed height for the image */
+      object-fit: cover; /* Ensures that the image is cropped to fit the container */
+      border-radius: 50%; /* Optional: Makes the image circular */
+      margin-bottom: 15px; /* Adds some space between the image and text */
+    }
+  
+    .team-member h3 {
+      margin-top: 10px; /* Adds space above the name */
+      font-size: 18px; /* Adjust the font size of the name */
+      font-weight: bold; /* Makes the name bold */
+    }
+  
+    .team-member p {
+      margin: 5px 0; /* Adds vertical spacing between the text */
+      font-size: 14px; /* Adjust the font size of the text */
+    }
+  </style>
+  
+</head>  
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  {% include icons/icons.html %}
+  {% if page.nav_enabled == true %}
+    {% include components/sidebar.html %}
+  {% elsif layout.nav_enabled == true and page.nav_enabled == nil %}
+    {% include components/sidebar.html %}
+  {% elsif site.nav_enabled != false and layout.nav_enabled == nil and page.nav_enabled == nil %}
+    {% include components/sidebar.html %}
+  {% endif %}
+  <div class="main" id="top">
+    {% include components/header.html %}
+    <div class="main-content-wrap">
+      {% include components/breadcrumbs.html %}
+      <div id="main-content" class="main-content">
+        <main>
+          {% if site.heading_anchors != false %}
+            {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
+          {% else %}
+            {{ content }}
+          {% endif %}
+
+          {% if page.has_children == true and page.has_toc != false %}
+            {% include components/children_nav.html %}
+          {% endif %}
+        </main>
+        {% include components/footer.html %}
+      </div>
+    </div>
+    {% if site.search_enabled != false %}
+      {% include components/search_footer.html %}
+    {% endif %}
+  </div>
+
+  {% if site.mermaid %}
+    {% include components/mermaid.html %}
+  {% endif %}
+</body>
+</html>

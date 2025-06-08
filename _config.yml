@@ -4,6 +4,9 @@ description: IFoA Generative AI Working Party
 baseurl: ""
 url: "https://ifoa-genai-wp.github.io/work/"
 
+aux_links:
+  Repository: https://github.com/IFoA-GenAI-WP/work
+
 permalink: pretty
 
 exclude:
@@ -91,7 +94,7 @@ heading_anchors: false
 #     - "https://github.com/woogie-jeong/woogie-jeong.github.io"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
 
 # Enable or disable the side/mobile menu globally
 # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout

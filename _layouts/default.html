@@ -16,39 +16,50 @@ layout: table_wrappers
   <style>
     .team-grid {
       display: flex;
-      flex-wrap: wrap;
-      gap: 0px; /* Adds spacing between the team member boxes */
-      justify-content: space-between; /* Evenly distributes the boxes */
+      flex-direction: column; /* stack items vertically */
+      gap: 20px; /* Adds spacing between the team member boxes */
     }
   
     .team-member {
-      flex: 0 0 32%; /* Each box takes up 32% of the width, leaving space for 3 boxes per row */
-      text-align: center; /* Center-aligns the text inside the box */
+      display: flex;
+      align-items: flex-start;
       padding: 20px; /* Adds padding inside each box for better spacing */
       border: 2px solid #ddd; /* Adds a border around each box */
       border-radius: 8px; /* Optional: Rounds the corners of the boxes */
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow to the box */
       background-color: #fff; /* Background color for the box */
-      margin-bottom: 20px; /* Adds space below each box */
+      max-width: 900px; /* increase width */
+      margin: 0 auto 24px auto; /* center and add bottom spacing */
     }
-  
+    .team-member > .image-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 150px;
+      margin-right: 32px;
+      flex-shrink: 0;
+    }
     .team-member img {
-      width: 150px; /* Set a fixed width for the image */
-      height: 150px; /* Set a fixed height for the image */
-      object-fit: cover; /* Ensures that the image is cropped to fit the container */
-      border-radius: 50%; /* Optional: Makes the image circular */
-      margin-bottom: 15px; /* Adds some space between the image and text */
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 32px; 
+      margin-left: 24px; 
+      margin-top: 20px; 
     }
-  
-    .team-member h3 {
-      margin-top: 10px; /* Adds space above the name */
-      font-size: 18px; /* Adjust the font size of the name */
-      font-weight: bold; /* Makes the name bold */
+
+    .team-role {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #666;
+      text-align: center;
+      font-weight: bold;
     }
-  
-    .team-member p {
-      margin: 5px 0; /* Adds vertical spacing between the text */
-      font-size: 14px; /* Adjust the font size of the text */
+
+    .team-text {
+      flex: 1;
+      min-width: 200px;
     }
     .main-content-wrap {
       max-width: 1200px;

@@ -45,7 +45,7 @@ nav_order: 1
         View LinkedIn Profile
       </a>
     </p>
-    <p>Betty is a qualified actuary with deep expertise in insurance pricing, data science, and extensive experience in insurance software development gained through roles at multiple leading industry vendors, including WTW (Radar Suites), Aon (Aon Pricing Platform), and Akur8. She's always passionate about leveraging the cutting-edge GenAI knowledge and techniques into the day-to-day work and has delivered multiple presentations and workshops in this avenue. Betty is currently on a career break and exploring possibilities for the next exciting venture.</p>
+    <p>Betty is a qualified actuary with deep expertise in insurance pricing, data science, and extensive experience in insurance software development gained through roles at multiple leading industry vendors, including WTW (Radar Suites), Aon (Aon Pricing Platform), and Akur8. She's always passionate about leveraging the cutting-edge GenAI knowledge and techniques into the day-to-day work and has delivered multiple presentations and workshops in this avenue. Betty is now co-founder of SOLUX TECH, a boutique tech-enabled advisory based in the UK, where she focuses on delivering actuarial consulting, AI-enabled analytics, and education services.</p>
   </div>
 </div>
 
@@ -186,5 +186,25 @@ nav_order: 1
       </a>
     </p>
     <p>Gillian is a Lecturer (Education) Actuarial Science at Queen’s University Belfast and a former pensions actuary. She teaches undergraduate and postgraduate actuarial science modules, focussing on modelling and data science. She has a particular interest in the ethical application of AI and in ensuring her students are equipped for the future job market.</p>
+  </div>
+</div>
+
+
+<div class="team-member">
+  <div>
+    <img src="{{ '/assets/images/Aniketh.jpg' | relative_url }}" alt="Aniketh Pittea">
+    <div class="team-role">Member</div>
+  </div>
+  <div class="team-text">
+    <h3>Aniketh Pittea</h3>
+    <p>
+       <a href="https://www.linkedin.com/in/aniketh-pittea-9b811682/" target="_blank" rel="noopener" class="linkedin-link">
+        View LinkedIn Profile
+      </a>
+    </p>
+    <p>
+      Aniketh is a Manager at Grant Thornton UK, actively involved in developing AI propositions for the actuarial profession.
+      He has presented on practical AI use cases for actuaries at multiple IFoA Conferences, with a particular focus on leveraging AI to enhance spreadsheet-based workflows and improve efficiency in actuarial processes.
+    </p>
   </div>
 </div>

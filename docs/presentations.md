@@ -11,6 +11,21 @@ nav_order: 4
   </h1>
   <hr style="margin-bottom: 2rem; border: none; border-top: 1px solid #ddd;">
 
+   <div style="margin-bottom: 2.5rem;">
+    <h2 style="font-size: 1.15rem; font-weight: 500; color: #222; margin-bottom: 0.3rem;">
+      Documenting spreadsheets using LLMs
+    </h2>
+    <p style="margin: 0.1rem 0; font-size: 0.95rem; color: #555;"><em>Aniketh Pittea · 5 November 2025</em></p>
+    <p style="margin: 0.4rem 0;">
+      <a href="{{ '/assets/files/Life Conference 2025.pdf' | relative_url }}" target="_blank" style="color: #0077b5; text-decoration: none;">
+        View & Download Slides
+      </a>
+    </p>
+    <p style="font-size: 0.95rem; color: #333;">
+      The presentation explores how Generative AI can be used for documenting spreadsheets and converting spreadsheets into Python codes.
+    </p>
+  </div> 
+
   <div style="margin-bottom: 2.5rem;">
     <h2 style="font-size: 1.15rem; font-weight: 500; color: #222; margin-bottom: 0.3rem;">
       Enhancing the Commercial Insurance Value Chain with AI and Analytics

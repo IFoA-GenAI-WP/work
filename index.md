@@ -192,7 +192,7 @@ nav_order: 1
 
 <div class="team-member">
   <div>
-    <img src="{{ '/assets/images/Aniketh.jpg' | relative_url }}" alt="Aniketh Pittea">
+    <img src="{{ '/assets/images/aniketh.jpg' | relative_url }}" alt="Aniketh Pittea">
     <div class="team-role">Member</div>
   </div>
   <div class="team-text">

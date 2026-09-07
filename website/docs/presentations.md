@@ -9,7 +9,8 @@ nav_order: 4
   <header class="page-intro">
     <p class="eyebrow">Research in practice</p>
     <h1>Presentations</h1>
-    <p>Explore our talks on generative AI, insurance and actuarial work.</p>
+    <p>Explore our talks on Generative AI, insurance and actuarial work.</p>
+    <p class="presentation-note">Generative AI is a fast-evolving field, and some material from previous years may be outdated. Follow our <a href="#year-2026">latest presentations</a> and <a href="https://ifoagenai.substack.com" target="_blank" rel="noopener noreferrer">Substack</a> for current insights.</p>
   </header>
 
   <nav class="year-nav" aria-label="Presentation years">
@@ -23,9 +24,9 @@ nav_order: 4
   <div class="year-entries">
     <div class="resource-entry">
       <h3>AI Meets Cyber: Hype, Reality, and What Actually Matters</h3>
-      <p class="resource-meta"><em>Visesh Gosrani and Betty Zhu · Queen Mary University of London · 2 April 2026</em></p>
-      <p><a href="{{ '/assets/files/QMUL Talk - AI Meets Cyber.deck' | relative_url }}" download>Download slides (Figma Slides .deck, 18 MB)</a></p>
-      <p>This presentation explores the intersection of AI and cyber risk, covering the limits of generative AI, hallucinations, model poisoning, and data security. It examines how AI is changing cyber attacks, defence, underwriting and insurance coverage, with practical takeaways for actuaries.</p>
+      <p class="resource-meta"><em>Visesh Gosrani and Betty Zhu · 2 April 2026</em></p>
+      <p><a href="{{ '/assets/files/QMUL Talk - AI Meets Cyber.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">View &amp; Download Slides</a></p>
+      <p>This presentation explores the intersection of AI and cyber risk, covering the limits of Generative AI, hallucinations, model poisoning, and data security. It examines how AI is changing cyber attacks, defence, underwriting and insurance coverage, with practical takeaways for actuaries.</p>
     </div>
   </div>
   </section>

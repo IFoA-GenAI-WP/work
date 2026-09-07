@@ -7,7 +7,7 @@ nav_order: 5
 <header class="page-intro">
   <p class="eyebrow">Learning &amp; perspectives</p>
   <h1>Blogs and Workshops</h1>
-  <p>Practical learning and ideas on generative AI for the actuarial profession.</p>
+  <p>Practical learning and ideas on Generative AI for the actuarial profession.</p>
 </header>
 
 <div class="resource-list">
@@ -26,7 +26,7 @@ nav_order: 5
     <p class="resource-meta">Betty Zhu, Max Martinelli and Samuel Gifford</p>
     <div class="workshop-content">
       <div class="workshop-copy">
-        <p>A hands-on workshop for actuaries and insurance professionals, available in full-day or half-day formats. Build from neural network foundations to practical applications of advanced generative AI in actuarial and insurance work.</p>
+        <p>A hands-on workshop for actuaries and insurance professionals, available in full-day or half-day formats. Build from neural network foundations to practical applications of advanced Generative AI in actuarial and insurance work.</p>
         <p>We continuously maintain the curriculum and exercises, with an updated edition each year to reflect the rapid pace of AI development. The CAS workshop was delivered in consecutive years in 2025 and 2026 and will return in 2027.</p>
       </div>
       <aside class="workshop-enquiry" aria-label="Workshop enquiries">

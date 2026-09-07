@@ -8,7 +8,7 @@ nav_order: 1
   <div>
     <p class="eyebrow">IFoA Generative AI Working Party</p>
     <h1 id="home-title">Generative AI<br><span>in actuarial practice.</span></h1>
-    <p>We research and apply generative AI to the actuarial profession, assess its impact, and establish best practices for its use.</p>
+    <p>We research and apply Generative AI to the actuarial profession, assess its impact, and establish best practices for its use.</p>
     <a class="action-link" href="https://ifoagenai.substack.com" target="_blank" rel="noopener noreferrer">Explore Our Substack</a>
   </div>
   <svg class="hero-network" viewBox="0 0 360 340" fill="none" aria-hidden="true" focusable="false">
@@ -27,11 +27,12 @@ nav_order: 1
   </svg>
 </section>
 
+<section class="team-section" id="meet-the-team" aria-labelledby="co-chairs">
 <div class="section-heading">
-  <h2 id="meet-the-team">Meet the team</h2>
+  <h2 id="co-chairs">Co-chairs</h2>
   <p>2026 Working Party</p>
 </div>
-<div class="team-grid">
+<div class="team-grid co-chairs-grid">
   <article class="team-member">
     <div class="image-column"><img src="{{ '/assets/images/LeiFangPhoto.jpg' | relative_url }}" alt="Lei Fang" width="150" height="150" loading="eager" decoding="async"></div>
     <div class="team-text">
@@ -83,6 +84,14 @@ nav_order: 1
     </details>
   </article>
 
+</div>
+</section>
+
+<section class="team-section" aria-labelledby="members">
+<div class="section-heading">
+  <h2 id="members">Members</h2>
+</div>
+<div class="team-grid">
   <article class="team-member">
     <div class="image-column"><img src="{{ '/assets/images/ben dennesen.jpeg' | relative_url }}" alt="Ben Dennesen" width="150" height="150" loading="lazy" decoding="async"></div>
     <div class="team-text">
@@ -201,3 +210,4 @@ nav_order: 1
     </details>
   </article>
 </div>
+</section>

@@ -9,7 +9,7 @@ Visit our [website](https://ifoa-genai-wp.github.io/work/).
 | Folder | Purpose |
 | --- | --- |
 | [GenAI Survey/](GenAI%20Survey/) | Materials for the GenAI survey conducted in **2025**, including the survey questionnaire. |
-| [website/](website/) | Source files for the IFoA Generative AI Working Party website, including pages, images, presentation PDFs, theme files, and build configuration. |
+| [website/](website/) | Source files for the IFoA Generative AI Working Party website, including pages, images, presentation files, theme files, and build configuration. |
 
 The `.github/` folder contains the website's build, deployment, and dependency-update workflows. It remains at the repository root so GitHub can discover them.
 
@@ -19,7 +19,9 @@ All website content and supporting files are in `website/`:
 
 - `index.md`: the home page and team profiles.
 - `docs/`: the presentations and blogs/workshops pages.
-- `assets/`: images, presentation PDFs, styles, and JavaScript.
+- `contact.md`: the Contact Us page.
+- `assets/`: images, presentation files (PDF and Figma Slides), styles, and JavaScript.
+- `tools/contact-form/`: Google Forms setup and email notification script; see its [setup guide](website/tools/contact-form/README.md). This folder is excluded from the public website build.
 - `_includes/`, `_layouts/`, and `_sass/`: the Jekyll theme.
 - `_config.yml`: website settings.
 - `Gemfile` and `Gemfile.lock`: Ruby dependencies used to build the website.

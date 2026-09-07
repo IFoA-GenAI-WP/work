@@ -3,6 +3,8 @@ title: IFoA GenAI Working Party
 description: IFoA Generative AI Working Party
 baseurl: "/work"
 url: "https://ifoa-genai-wp.github.io"
+# Published contact form, with three-co-chair notifications in Google Apps Script.
+contact_form_url: "https://docs.google.com/forms/d/e/1FAIpQLSeh_EBHZ5kmuBc3Y-BdxU-WfXTkFN5Ed0syrooi5H3BQBv_Ig/viewform"
 
 aux_links:
   Repository: https://github.com/IFoA-GenAI-WP/work
@@ -35,6 +37,7 @@ exclude:
    - Dockerfile
  # theme test code
    - fixtures/
+   - tools/
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"

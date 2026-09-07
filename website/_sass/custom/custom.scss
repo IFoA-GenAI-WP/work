@@ -1,1 +1,115 @@
-// custom SCSS (or CSS) goes here
+// Shared layout for team profiles and working-party resources.
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+.main-content h1 {
+  font-size: clamp(1.75rem, 4vw, 2rem);
+  font-weight: 600;
+}
+
+.main-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.team-member {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  align-items: start;
+  gap: 2rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  background: $body-background-color;
+}
+
+.image-column {
+  text-align: center;
+}
+
+.team-member img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-role {
+  margin-top: 0.75rem;
+  color: $body-text-color;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.main-content .team-text h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.team-text p:last-child,
+.resource-entry p:last-child {
+  margin-bottom: 0;
+}
+
+.linkedin-link {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.main-content .resource-entry h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.resource-entry {
+  margin-bottom: 2rem;
+}
+
+.resource-meta {
+  margin-top: 0;
+  font-size: 0.875rem;
+}
+
+.main-content footer p,
+.aux-nav,
+.search-results-list,
+.search-result-previews,
+.search-no-result {
+  font-size: 0.875rem;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid $link-color;
+  outline-offset: 3px;
+}
+
+.search-input:focus-visible {
+  outline: 2px solid $link-color;
+  outline-offset: -3px;
+}
+
+@media (max-width: 40rem) {
+  .team-member {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+    padding: 1.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

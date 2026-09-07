@@ -5,70 +5,7 @@ layout: table_wrappers
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  
-  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
-
-  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-head-nav.css' | relative_url }}" id="jtd-head-nav-stylesheet">
-
-  <style>
-    .team-grid {
-      display: flex;
-      flex-direction: column; /* stack items vertically */
-      gap: 20px; /* Adds spacing between the team member boxes */
-    }
-  
-    .team-member {
-      display: flex;
-      align-items: flex-start;
-      padding: 20px; /* Adds padding inside each box for better spacing */
-      border: 2px solid #ddd; /* Adds a border around each box */
-      border-radius: 8px; /* Optional: Rounds the corners of the boxes */
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow to the box */
-      background-color: #fff; /* Background color for the box */
-      max-width: 900px; /* increase width */
-      margin: 0 auto 24px auto; /* center and add bottom spacing */
-    }
-    .team-member > .image-column {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 150px;
-      margin-right: 32px;
-      flex-shrink: 0;
-    }
-    .team-member img {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      border-radius: 50%;
-      margin-right: 32px; 
-      margin-left: 24px; 
-      margin-top: 20px; 
-    }
-
-    .team-role {
-      margin-top: 10px;
-      font-size: 14px;
-      color: #666;
-      text-align: center;
-      font-weight: bold;
-    }
-
-    .team-text {
-      flex: 1;
-      min-width: 200px;
-    }
-    .main-content-wrap {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 2rem;
-    }
-  </style>
-  
-</head>  
+{% include head.html %}
 <body>
   <a class="skip-to-main" href="#main-content">Skip to main content</a>
   {% include icons/icons.html %}
@@ -83,7 +20,7 @@ layout: table_wrappers
     {% include components/header.html %}
     <div class="main-content-wrap">
       {% include components/breadcrumbs.html %}
-      <div id="main-content" class="main-content">
+      <div id="main-content" class="main-content" tabindex="-1">
         <main>
           {% if site.heading_anchors != false %}
             {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}

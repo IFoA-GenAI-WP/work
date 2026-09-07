@@ -1,8 +1,8 @@
 
 title: IFoA GenAI Working Party
 description: IFoA Generative AI Working Party
-baseurl: ""
-url: "https://ifoa-genai-wp.github.io/work/"
+baseurl: "/work"
+url: "https://ifoa-genai-wp.github.io"
 
 aux_links:
   Repository: https://github.com/IFoA-GenAI-WP/work
@@ -120,7 +120,7 @@ liquid:
 back_to_top: false
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright © 2025 IFoA GenAI WP. All rights reserved."
+footer_content: "Copyright © 2026 IFoA GenAI WP. All rights reserved."
 
 # Footer last edited timestamp
 last_edit_timestamp: false # show or hide edit time - page must have `last_modified_date` defined in the frontmatter

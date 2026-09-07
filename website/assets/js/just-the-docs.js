@@ -48,11 +48,11 @@ function initNav() {
     if (menuButton.classList.toggle('nav-open')) {
       siteNav.classList.add('nav-open');
       mainHeader.classList.add('nav-open');
-      menuButton.ariaPressed = true;
+      menuButton.setAttribute('aria-expanded', 'true');
     } else {
       siteNav.classList.remove('nav-open');
       mainHeader.classList.remove('nav-open');
-      menuButton.ariaPressed = false;
+      menuButton.setAttribute('aria-expanded', 'false');
     }
   });
 
@@ -418,6 +418,9 @@ function searchLoaded(index, docs) {
     setTimeout(update, 0);
   });
 
+  // Include paste, touch keyboards, and browser input controls.
+  jtd.addEvent(searchInput, 'input', update);
+
   jtd.addEvent(searchInput, 'keyup', function(e){
     switch (e.keyCode) {
       case 27: // When esc key is pressed, hide the results and clear the field
@@ -530,7 +533,7 @@ function scrollNav() {
   const targetLink = navLink();
   if (targetLink) {
     targetLink.scrollIntoView({ block: "center" });
-    targetLink.removeAttribute('href');
+    targetLink.setAttribute('aria-current', 'page');
   }
 }
 

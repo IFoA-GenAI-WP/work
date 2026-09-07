@@ -4,21 +4,17 @@ title: Home
 nav_order: 1
 ---
 
-<div style="max-width: 900px; margin: 0 auto;">
+<h1>IFoA Generative AI Working Party</h1>
 
-<p><strong>Welcome to the IFoA Generative AI Working Party!</strong></p>
+<p>We research and apply generative AI to the actuarial profession, assess its impact, and establish best practices for its use.</p>
 
-<p>This is a new IFoA working party dedicated to researching and applying this new technology to the actuarial profession, as well as assessing the impact and establishing best practices for its use.</p>
-
-
-</div>
-
-## Meet the Team
+## Meet the Team · 2026
+{: #meet-the-team }
 
 
 <div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/LeiFangPhoto.jpg' | relative_url }}" alt="Lei Fang">
+  <div class="image-column">
+    <img src="{{ '/assets/images/LeiFangPhoto.jpg' | relative_url }}" alt="Lei Fang" width="150" height="150" loading="eager" decoding="async">
     <div class="team-role">Co-chair</div>
   </div>
   <div class="team-text">
@@ -34,8 +30,8 @@ nav_order: 1
 
 
 <div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/betty-linkedin.jpeg' | relative_url }}" alt="Betty Zhu">
+  <div class="image-column">
+    <img src="{{ '/assets/images/betty-linkedin.jpeg' | relative_url }}" alt="Betty Zhu" width="150" height="150" loading="lazy" decoding="async">
     <div class="team-role">Co-chair</div>
   </div>
   <div class="team-text">
@@ -50,8 +46,8 @@ nav_order: 1
 </div>
 
 <div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/daniel-linkedin.jpeg' | relative_url }}" alt="Daniel Ramsay">
+  <div class="image-column">
+    <img src="{{ '/assets/images/daniel-linkedin.jpeg' | relative_url }}" alt="Daniel Ramsay" width="150" height="150" loading="lazy" decoding="async">
     <div class="team-role">Co-chair</div>
   </div>
   <div class="team-text">
@@ -66,8 +62,8 @@ nav_order: 1
 </div>
 
 <div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/ben dennesen.jpeg' | relative_url }}" alt="Ben Dennesen">
+  <div class="image-column">
+    <img src="{{ '/assets/images/ben dennesen.jpeg' | relative_url }}" alt="Ben Dennesen" width="150" height="150" loading="lazy" decoding="async">
     <div class="team-role">Member</div>
   </div>
   <div class="team-text">
@@ -83,8 +79,8 @@ nav_order: 1
 </div>
 
 <div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/Ben Ratcliffe.jpg' | relative_url }}" alt="Ben Ratcliffe">
+  <div class="image-column">
+    <img src="{{ '/assets/images/Ben Ratcliffe.jpg' | relative_url }}" alt="Ben Ratcliffe" width="150" height="150" loading="lazy" decoding="async">
     <div class="team-role">Member</div>
   </div>
   <div class="team-text">
@@ -94,8 +90,8 @@ nav_order: 1
 </div>
 
 <div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/david king.jpeg' | relative_url }}" alt="David King">
+  <div class="image-column">
+    <img src="{{ '/assets/images/david king.jpeg' | relative_url }}" alt="David King" width="150" height="150" loading="lazy" decoding="async">
     <div class="team-role">Member</div>
   </div>
   <div class="team-text">
@@ -110,24 +106,8 @@ nav_order: 1
 </div>
 
 <div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/asmita-linkedin.jpeg' | relative_url }}" alt="Asmita Jain">
-    <div class="team-role">Member</div>
-  </div>
-  <div class="team-text">
-    <h3>Asmita Jain</h3>
-    <p>
-      <a href="https://www.linkedin.com/in/asmita-jain-175475ba/" target="_blank" rel="noopener" class="linkedin-link">
-        View LinkedIn Profile
-      </a>
-    </p>
-    <p>Asmita works as a Pricing & Portfolio Modelling Actuary at Nephila. She is currently experimenting with multimodal generation models.</p>
-  </div>
-</div>
-
-<div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/Krushna.jpg' | relative_url }}" alt="Krushna Bhala">
+  <div class="image-column">
+    <img src="{{ '/assets/images/Krushna.jpg' | relative_url }}" alt="Krushna Bhala" width="150" height="150" loading="lazy" decoding="async">
     <div class="team-role">Member</div>
   </div>
   <div class="team-text">
@@ -142,8 +122,8 @@ nav_order: 1
 </div>
 
 <div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/Hiteshi.jpg' | relative_url }}" alt="Hiteshi Gupta">
+  <div class="image-column">
+    <img src="{{ '/assets/images/Hiteshi.jpg' | relative_url }}" alt="Hiteshi Gupta" width="150" height="150" loading="lazy" decoding="async">
     <div class="team-role">Member</div>
   </div>
   <div class="team-text">
@@ -158,8 +138,8 @@ nav_order: 1
 </div>
 
 <div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/Disha.jpeg' | relative_url }}" alt="Disha Dagli">
+  <div class="image-column">
+    <img src="{{ '/assets/images/Disha.jpeg' | relative_url }}" alt="Disha Dagli" width="150" height="150" loading="lazy" decoding="async">
     <div class="team-role">Member</div>
   </div>
   <div class="team-text">
@@ -169,30 +149,13 @@ nav_order: 1
         View LinkedIn Profile
       </a>
     </p>
-    <p>Disha Dagli is a Senior Pricing Actuarial Analyst at Brit Insurance, with previous experience as a Lead Actuarial Associate at WTW in pensions consulting.She is passionate about the transformative potential of AI within the actuarial profession and believes actuaries have a critical role to play in shaping its future. Disha is particularly interested in the ethical and regulatory considerations that must underpin the profession’s adoption of AI technologies. She is currently a member of both the IFoA’s GenAI Working Party and the Data Science, Regulation and Ethics Working Party.</p>
+    <p>Disha Dagli is a Senior Pricing Actuarial Analyst at Brit Insurance, with previous experience as a Lead Actuarial Associate at WTW in pensions consulting. She is passionate about the transformative potential of AI within the actuarial profession and believes actuaries have a critical role to play in shaping its future. Disha is particularly interested in the ethical and regulatory considerations that must underpin the profession’s adoption of AI technologies. She is currently a member of both the IFoA’s GenAI Working Party and the Data Science, Regulation and Ethics Working Party.</p>
   </div>
 </div>
 
 <div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/Gillian.jpg' | relative_url }}" alt="Gillian McMahon">
-    <div class="team-role">Member</div>
-  </div>
-  <div class="team-text">
-    <h3>Gillian McMahon</h3>
-    <p>
-      <a href="https://www.linkedin.com/in/disha-dagli-276a17147/" target="_blank" rel="noopener" class="linkedin-link">
-        View LinkedIn Profile
-      </a>
-    </p>
-    <p>Gillian is a Lecturer (Education) Actuarial Science at Queen’s University Belfast and a former pensions actuary. She teaches undergraduate and postgraduate actuarial science modules, focussing on modelling and data science. She has a particular interest in the ethical application of AI and in ensuring her students are equipped for the future job market.</p>
-  </div>
-</div>
-
-
-<div class="team-member">
-  <div>
-    <img src="{{ '/assets/images/aniketh.jpg' | relative_url }}" alt="Aniketh Pittea">
+  <div class="image-column">
+    <img src="{{ '/assets/images/aniketh.jpg' | relative_url }}" alt="Aniketh Pittea" width="150" height="150" loading="lazy" decoding="async">
     <div class="team-role">Member</div>
   </div>
   <div class="team-text">

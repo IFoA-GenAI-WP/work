@@ -6,10 +6,11 @@ nav_order: 4
 
 <div class="resource-list">
 
-  <h1>
-    Presentations
-  </h1>
-  <hr>
+  <header class="page-intro">
+    <p class="eyebrow">Research in practice</p>
+    <h1>Presentations</h1>
+    <p>Explore our talks on generative AI, insurance and actuarial work.</p>
+  </header>
 
   <nav class="year-nav" aria-label="Presentation years">
     <a href="#year-2026">2026</a>
@@ -19,16 +20,19 @@ nav_order: 4
 
   <section class="presentation-year" aria-labelledby="year-2026">
     <h2 id="year-2026">2026</h2>
+  <div class="year-entries">
     <div class="resource-entry">
       <h3>AI Meets Cyber: Hype, Reality, and What Actually Matters</h3>
       <p class="resource-meta"><em>Visesh Gosrani and Betty Zhu · Queen Mary University of London · 2 April 2026</em></p>
       <p><a href="{{ '/assets/files/QMUL Talk - AI Meets Cyber.deck' | relative_url }}" download>Download slides (Figma Slides .deck, 18 MB)</a></p>
       <p>This presentation explores the intersection of AI and cyber risk, covering the limits of generative AI, hallucinations, model poisoning, and data security. It examines how AI is changing cyber attacks, defence, underwriting and insurance coverage, with practical takeaways for actuaries.</p>
     </div>
+  </div>
   </section>
 
   <section class="presentation-year" aria-labelledby="year-2025">
   <h2 id="year-2025">2025</h2>
+  <div class="year-entries">
    <div class="resource-entry">
     <h3>
       Documenting spreadsheets using LLMs
@@ -43,10 +47,12 @@ nav_order: 4
       The presentation explores how Generative AI can be used for documenting spreadsheets and converting spreadsheets into Python codes.
     </p>
   </div>
+  </div>
   </section>
 
   <section class="presentation-year" aria-labelledby="year-2024">
   <h2 id="year-2024">2024</h2>
+  <div class="year-entries">
   <div class="resource-entry">
     <h3>
       Enhancing the Commercial Insurance Value Chain with AI and Analytics
@@ -90,6 +96,7 @@ nav_order: 4
     <p>
       This presentation highlights how GenAI can be applied to actuarial workflows and operations, with practical demonstrations and strategic implementation insights.
     </p>
+  </div>
   </div>
   </section>
 

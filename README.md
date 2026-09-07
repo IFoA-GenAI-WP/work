@@ -17,12 +17,12 @@ The `.github/` folder contains the website's build, deployment, and dependency-u
 
 All website content and supporting files are in `website/`:
 
-- `index.md`: the home page and team profiles.
+- `index.md`: the home page, with Substack as the primary call to action, and expandable team profiles.
 - `docs/`: the presentations and blogs/workshops pages.
 - `contact.md`: the Contact Us page.
 - `assets/`: images, presentation files (PDF and Figma Slides), styles, and JavaScript.
 - `tools/contact-form/`: Google Forms setup and email notification script; see its [setup guide](website/tools/contact-form/README.md). This folder is excluded from the public website build.
-- `_includes/`, `_layouts/`, and `_sass/`: the Jekyll theme.
+- `_includes/`, `_layouts/`, and `_sass/`: the Jekyll theme. The shared website design and responsive layouts are in `_sass/custom/custom.scss`.
 - `_config.yml`: website settings.
 - `Gemfile` and `Gemfile.lock`: Ruby dependencies used to build the website.
 

@@ -25,7 +25,7 @@ function fixture({ quota = 3, failSend = false } = {}) {
 }
 
 function submission(overrides = {}, formId = 'our-form') {
-  const answers = { Name: 'Example Visitor', Email: 'visitor@example.com', Topic: 'CAS workshop', Message: 'Please send workshop details.', ...overrides };
+  const answers = { Name: 'Example Visitor', Email: 'visitor@example.com', Topic: 'Full Day or Half Day Gen AI Workshop', Message: 'Please send workshop details.', ...overrides };
   return {
     source: { getId: () => formId },
     response: {
@@ -42,12 +42,16 @@ valid.notify(submission({ Message: '<script>literal text</script>', To: 'attacke
 assert.equal(valid.sent.length, 1);
 assert.equal(valid.sent[0].to, 'bettyzhu912@gmail.com,lei.fang@qmul.ac.uk,daniel.craig.ramsay@gmail.com');
 assert.equal(valid.sent[0].replyTo, 'visitor@example.com');
-assert.equal(valid.sent[0].subject, '[IFoA GenAI website] CAS workshop');
+assert.equal(valid.sent[0].subject, '[IFoA GenAI website] Full Day or Half Day Gen AI Workshop');
 assert.equal(valid.sent[0].htmlBody, undefined);
 assert.match(valid.sent[0].body, /<script>literal text<\/script>/);
 valid.notify(submission());
 assert.equal(valid.sent.length, 1, 'Duplicate response should not send twice');
 assert.equal(valid.locks(), 0);
+
+const legacy = fixture();
+legacy.notify(submission({ Topic: 'CAS workshop' }));
+assert.equal(legacy.sent[0].subject, '[IFoA GenAI website] Full Day or Half Day Gen AI Workshop');
 
 for (const overrides of [
   { Email: 'visitor@example.com\r\nBcc:someone@example.com' },

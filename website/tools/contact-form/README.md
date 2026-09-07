@@ -12,7 +12,7 @@ Configured under `bettyzhu912@gmail.com` on 7 September 2026. The form accepts r
 
 ## Visitor experience
 
-The form asks for **Name**, **Email**, **Topic** (CAS workshop, Presentations or General enquiry) and **Message**. All four fields are required. Visitors are told that their details will be shared with the three co-chairs to answer their enquiry. Response summaries are private, and the form does not require one response per Google account.
+The form asks for **Name**, **Email**, **Topic** (Full Day or Half Day Gen AI Workshop, Presentations or General enquiry) and **Message**. All four fields are required. Visitors are told that their details will be shared with the three co-chairs to answer their enquiry. Response summaries are private, and the form does not require one response per Google account.
 
 ## Set up as bettyzhu912@gmail.com
 
@@ -27,7 +27,7 @@ Until a tested form URL is configured, Contact Us offers an email link to the th
 ## Notification
 
 - Recipients: `bettyzhu912@gmail.com`, `lei.fang@qmul.ac.uk`, `daniel.craig.ramsay@gmail.com`
-- Subject: `[IFoA GenAI website] CAS workshop` (or the selected topic)
+- Subject: `[IFoA GenAI website] Full Day or Half Day Gen AI Workshop` (or the selected topic)
 - Body: the visitor's name, email, topic and message, in plain text
 - Reply-To: the visitor's validated email address
 

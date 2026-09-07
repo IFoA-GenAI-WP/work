@@ -3,7 +3,7 @@ const CONTACT_RECIPIENTS = [
   'lei.fang@qmul.ac.uk',
   'daniel.craig.ramsay@gmail.com'
 ];
-const CONTACT_TOPICS = ['CAS workshop', 'Presentations', 'General enquiry'];
+const CONTACT_TOPICS = ['Full Day or Half Day Gen AI Workshop', 'Presentations', 'General enquiry'];
 const CONTACT_TITLE = 'Contact the IFoA Generative AI Working Party';
 
 // Run once as the form owner. Running again reuses the same form and trigger.
@@ -16,7 +16,7 @@ function setupContactForm() {
     const form = existingId ? FormApp.openById(existingId) : FormApp.create(CONTACT_TITLE, false);
     properties.setProperty('CONTACT_FORM_ID', form.getId());
     form.setTitle(CONTACT_TITLE)
-      .setDescription('Ask about the CAS workshop, our presentations, or the working party. Your name, email address and message will be shared with Betty Zhu, Lei Fang and Daniel Ramsay so we can respond to your enquiry.')
+      .setDescription('Ask about full-day or half-day Gen AI workshops, our presentations, or the working party. Your name, email address and message will be shared with Betty Zhu, Lei Fang and Daniel Ramsay so we can respond to your enquiry.')
       .setConfirmationMessage('Thank you. Your message has been received.')
       .setCollectEmail(false)
       .setAllowResponseEdits(false)
@@ -76,7 +76,9 @@ function notifyContactSubmission(event) {
     });
     const name = answers.Name || '';
     const email = answers.Email || '';
-    const topic = answers.Topic || '';
+    const submittedTopic = answers.Topic || '';
+    // Accept responses from forms opened before the topic label changed.
+    const topic = submittedTopic === 'CAS workshop' ? CONTACT_TOPICS[0] : submittedTopic;
     const message = answers.Message || '';
     if (!name || name.length > 120 || !message || message.length > 5000 ||
         !/^[^\s@,;<>]+@[^\s@,;<>]+\.[^\s@,;<>]+$/.test(email) ||

@@ -51,23 +51,6 @@ nav_order: 1
   </article>
 
   <article class="team-member">
-    <div class="image-column"><img src="{{ '/assets/images/betty-linkedin.jpeg' | relative_url }}" alt="Betty Zhu" width="150" height="150" loading="lazy" decoding="async"></div>
-    <div class="team-text">
-      <div class="team-role">Co-chair</div>
-      <h3>Betty Zhu</h3>
-      <p>
-      <a href="https://www.linkedin.com/in/betty-zhu-actuary/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Betty Zhu on LinkedIn">
-        LinkedIn
-      </a>
-    </p>
-    </div>
-    <details class="member-bio">
-      <summary aria-label="Read biography of Betty Zhu">Read biography</summary>
-      <p>Betty is a qualified actuary with deep expertise in insurance pricing, data science, and extensive experience in insurance software development gained through roles at multiple leading industry vendors, including WTW (Radar Suites), Aon (Aon Pricing Platform), and Akur8. She's always passionate about leveraging the cutting-edge GenAI knowledge and techniques into the day-to-day work and has delivered multiple presentations and workshops in this avenue. Betty is now co-founder of SOLUX TECH, a boutique tech-enabled advisory based in the UK, where she focuses on delivering actuarial consulting, AI-enabled analytics, and education services.</p>
-    </details>
-  </article>
-
-  <article class="team-member">
     <div class="image-column"><img src="{{ '/assets/images/daniel-linkedin.jpeg' | relative_url }}" alt="Daniel Ramsay" width="150" height="150" loading="lazy" decoding="async"></div>
     <div class="team-text">
       <div class="team-role">Co-chair</div>
@@ -84,6 +67,23 @@ nav_order: 1
     </details>
   </article>
 
+  <article class="team-member">
+    <div class="image-column"><img src="{{ '/assets/images/betty-linkedin.jpeg' | relative_url }}" alt="Betty Zhu" width="150" height="150" loading="lazy" decoding="async"></div>
+    <div class="team-text">
+      <div class="team-role">Co-chair</div>
+      <h3>Betty Zhu</h3>
+      <p>
+      <a href="https://www.linkedin.com/in/betty-zhu-actuary/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Betty Zhu on LinkedIn">
+        LinkedIn
+      </a>
+    </p>
+    </div>
+    <details class="member-bio">
+      <summary aria-label="Read biography of Betty Zhu">Read biography</summary>
+      <p>Betty is a qualified actuary with deep expertise in insurance pricing, data science, and extensive experience in insurance software development gained through roles at multiple leading industry vendors, including WTW (Radar Suites), Aon (Aon Pricing Platform), and Akur8. She's always passionate about leveraging the cutting-edge GenAI knowledge and techniques into the day-to-day work and has delivered multiple presentations and workshops in this avenue. Betty is now co-founder of SOLUX TECH, a boutique tech-enabled advisory based in the UK, where she focuses on delivering actuarial consulting, AI-enabled analytics, and education services.</p>
+    </details>
+  </article>
+
 </div>
 </section>
 
@@ -92,53 +92,6 @@ nav_order: 1
   <h2 id="members">Members</h2>
 </div>
 <div class="team-grid">
-  <article class="team-member">
-    <div class="image-column"><img src="{{ '/assets/images/ben dennesen.jpeg' | relative_url }}" alt="Ben Dennesen" width="150" height="150" loading="lazy" decoding="async"></div>
-    <div class="team-text">
-      <div class="team-role">Member</div>
-      <h3>Ben Dennesen</h3>
-      <p>
-      <a href="https://www.linkedin.com/in/ben-dennesen-fsai-cera-167aa699/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Ben Dennesen on LinkedIn">
-        LinkedIn
-      </a>
-    </p>
-    </div>
-    <details class="member-bio">
-      <summary aria-label="Read biography of Ben Dennesen">Read biography</summary>
-      <p>Ben Dennesen is an experienced actuary, architecting and delivering large-scale technical solutions with modern technology. He deeply understands insurance finance change, regulatory reporting, capital management, and the operational intricacies of actuarial functions. For the past couple years, he has focused on Artificial Intelligence, applying his software engineering and statistical knowledge to effectively use AI models in the insurance sector.</p><p>Within this working party, Ben contributes his thought leadership on AI's impact on actuarial science, leveraging his experience implementing AI in actuarial processes. He is passionate about using AI to enhance the efficiency of actuarial work.</p>
-    </details>
-  </article>
-
-  <article class="team-member">
-    <div class="image-column"><img src="{{ '/assets/images/Ben Ratcliffe.jpg' | relative_url }}" alt="Ben Ratcliffe" width="150" height="150" loading="lazy" decoding="async"></div>
-    <div class="team-text">
-      <div class="team-role">Member</div>
-      <h3>Ben Ratcliffe</h3>
-
-    </div>
-    <details class="member-bio">
-      <summary aria-label="Read biography of Ben Ratcliffe">Read biography</summary>
-      <p>Ben is Deloitte’s GenAI lead across actuarial. He is focused on the practical implementations of GenAI, and the risks that this can pose. Ben recently led the working party discussion with the profession to develop training material around how to deploy Agents safely.</p>
-    </details>
-  </article>
-
-  <article class="team-member">
-    <div class="image-column"><img src="{{ '/assets/images/david king.jpeg' | relative_url }}" alt="David King" width="150" height="150" loading="lazy" decoding="async"></div>
-    <div class="team-text">
-      <div class="team-role">Member</div>
-      <h3>David King</h3>
-      <p>
-      <a href="https://www.linkedin.com/in/david-king-66751828/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="David King on LinkedIn">
-        LinkedIn
-      </a>
-    </p>
-    </div>
-    <details class="member-bio">
-      <summary aria-label="Read biography of David King">Read biography</summary>
-      <p>David has over thirty years’ experience in investment management, with a focus on data-driven research, risk management, and NLP techniques for company document analysis. He contributes to the working party’s exploration of GenAI in financial text analysis and believes it can extend traditional NLP tools in identifying investment opportunities.</p>
-    </details>
-  </article>
-
   <article class="team-member">
     <div class="image-column"><img src="{{ '/assets/images/Krushna.jpg' | relative_url }}" alt="Krushna Bhala" width="150" height="150" loading="lazy" decoding="async"></div>
     <div class="team-text">
@@ -153,23 +106,6 @@ nav_order: 1
     <details class="member-bio">
       <summary aria-label="Read biography of Krushna Bhala">Read biography</summary>
       <p>Krushna has over 8 years of actuarial consulting experience, with a focus on finance transformation and AI in life insurance. He is especially interested in how AI agents will reshape finance and actuarial workflows in insurers.</p>
-    </details>
-  </article>
-
-  <article class="team-member">
-    <div class="image-column"><img src="{{ '/assets/images/Hiteshi.jpg' | relative_url }}" alt="Hiteshi Gupta" width="150" height="150" loading="lazy" decoding="async"></div>
-    <div class="team-text">
-      <div class="team-role">Member</div>
-      <h3>Hiteshi Gupta</h3>
-      <p>
-      <a href="https://www.linkedin.com/in/hiteshi-gupta/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Hiteshi Gupta on LinkedIn">
-        LinkedIn
-      </a>
-    </p>
-    </div>
-    <details class="member-bio">
-      <summary aria-label="Read biography of Hiteshi Gupta">Read biography</summary>
-      <p>Hiteshi is a life actuary at PwC with experience across UK, US, and India. She focuses on modelling, transactions, and GenAI use cases in life insurance. She brings a strong perspective on responsible adoption and is active in client engagement on GenAI strategy.</p>
     </details>
   </article>
 
@@ -191,6 +127,57 @@ nav_order: 1
   </article>
 
   <article class="team-member">
+    <div class="image-column"><img src="{{ '/assets/images/ben dennesen.jpeg' | relative_url }}" alt="Ben Dennesen" width="150" height="150" loading="lazy" decoding="async"></div>
+    <div class="team-text">
+      <div class="team-role">Member</div>
+      <h3>Ben Dennesen</h3>
+      <p>
+      <a href="https://www.linkedin.com/in/ben-dennesen-fsai-cera-167aa699/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Ben Dennesen on LinkedIn">
+        LinkedIn
+      </a>
+    </p>
+    </div>
+    <details class="member-bio">
+      <summary aria-label="Read biography of Ben Dennesen">Read biography</summary>
+      <p>Ben Dennesen is an experienced actuary, architecting and delivering large-scale technical solutions with modern technology. He deeply understands insurance finance change, regulatory reporting, capital management, and the operational intricacies of actuarial functions. For the past couple years, he has focused on Artificial Intelligence, applying his software engineering and statistical knowledge to effectively use AI models in the insurance sector.</p><p>Within this working party, Ben contributes his thought leadership on AI's impact on actuarial science, leveraging his experience implementing AI in actuarial processes. He is passionate about using AI to enhance the efficiency of actuarial work.</p>
+    </details>
+  </article>
+
+  <article class="team-member">
+    <div class="image-column"><img src="{{ '/assets/images/Hiteshi.jpg' | relative_url }}" alt="Hiteshi Gupta" width="150" height="150" loading="lazy" decoding="async"></div>
+    <div class="team-text">
+      <div class="team-role">Member</div>
+      <h3>Hiteshi Gupta</h3>
+      <p>
+      <a href="https://www.linkedin.com/in/hiteshi-gupta/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Hiteshi Gupta on LinkedIn">
+        LinkedIn
+      </a>
+    </p>
+    </div>
+    <details class="member-bio">
+      <summary aria-label="Read biography of Hiteshi Gupta">Read biography</summary>
+      <p>Hiteshi is a life actuary at PwC with experience across UK, US, and India. She focuses on modelling, transactions, and GenAI use cases in life insurance. She brings a strong perspective on responsible adoption and is active in client engagement on GenAI strategy.</p>
+    </details>
+  </article>
+
+  <article class="team-member">
+    <div class="image-column"><img src="{{ '/assets/images/david king.jpeg' | relative_url }}" alt="David King" width="150" height="150" loading="lazy" decoding="async"></div>
+    <div class="team-text">
+      <div class="team-role">Member</div>
+      <h3>David King</h3>
+      <p>
+      <a href="https://www.linkedin.com/in/david-king-66751828/" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="David King on LinkedIn">
+        LinkedIn
+      </a>
+    </p>
+    </div>
+    <details class="member-bio">
+      <summary aria-label="Read biography of David King">Read biography</summary>
+      <p>David has over thirty years’ experience in investment management, with a focus on data-driven research, risk management, and NLP techniques for company document analysis. He contributes to the working party’s exploration of GenAI in financial text analysis and believes it can extend traditional NLP tools in identifying investment opportunities.</p>
+    </details>
+  </article>
+
+  <article class="team-member">
     <div class="image-column"><img src="{{ '/assets/images/aniketh.jpg' | relative_url }}" alt="Aniketh Pittea" width="150" height="150" loading="lazy" decoding="async"></div>
     <div class="team-text">
       <div class="team-role">Member</div>
@@ -207,6 +194,19 @@ nav_order: 1
       Aniketh is a Manager at Grant Thornton UK, actively involved in developing AI propositions for the actuarial profession.
       He has presented on practical AI use cases for actuaries at multiple IFoA Conferences, with a particular focus on leveraging AI to enhance spreadsheet-based workflows and improve efficiency in actuarial processes.
     </p>
+    </details>
+  </article>
+
+  <article class="team-member">
+    <div class="image-column"><img src="{{ '/assets/images/Ben Ratcliffe.jpg' | relative_url }}" alt="Ben Ratcliffe" width="150" height="150" loading="lazy" decoding="async"></div>
+    <div class="team-text">
+      <div class="team-role">Member</div>
+      <h3>Ben Ratcliffe</h3>
+
+    </div>
+    <details class="member-bio">
+      <summary aria-label="Read biography of Ben Ratcliffe">Read biography</summary>
+      <p>Ben is Deloitte’s GenAI lead across actuarial. He is focused on the practical implementations of GenAI, and the risks that this can pose. Ben recently led the working party discussion with the profession to develop training material around how to deploy Agents safely.</p>
     </details>
   </article>
 </div>
